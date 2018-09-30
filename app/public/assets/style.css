@@ -20,3 +20,20 @@ footer {
 a {
     color: green;
 }
+
+#surveyStyle {
+    font-size: 2em;
+    color: black;
+}
+
+.questionStyle {
+    font-weight: 800;
+}
+
+.headerStyle {
+    font-weight: 800;
+}
+
+#titleStyle {
+    font-size: 1.5em;
+}
