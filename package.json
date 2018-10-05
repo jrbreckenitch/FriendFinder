@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jrbreckenitch/FriendFinder/issues"
   },
-  "homepage": "https://github.com/jrbreckenitch/FriendFinder#readme"
+  "homepage": "https://github.com/jrbreckenitch/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }
