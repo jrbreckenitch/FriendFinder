@@ -40,8 +40,10 @@ module.exports = function(app) {
     // It will do this by sending out the value "true" have a table
     // req.body is available since we're using the body parsing middleware
     
-    friends.push(req.body);
-      res.json(true);
+    // friends.push(req.body);
+    //   res.json(true);
+    console.log(req.body);
+    res.status(200).end();
     
     // if (friends.length < 5) {
     //   friends.push(req.body);
